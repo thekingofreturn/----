@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "auserbar": "../../components/auserbar/auserbar",
+    "aimg": "../../components/aimg/aimg"
+  }
+}

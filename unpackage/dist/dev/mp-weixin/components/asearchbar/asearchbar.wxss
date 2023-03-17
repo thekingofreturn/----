@@ -1,0 +1,30 @@
+/**
+ * 如果没有单位则加上rpx
+ * @param {Number|String} $n
+ */
+/**
+ * 根据原尺寸，和新宽，得到新高
+ * @param {Number} $w 新宽
+ * @param {Number} $ow 原宽
+ * @param {Number} $oh 原高
+ */
+/**
+ * 一个方形（头像）样式
+ */
+/**
+ * 定义宽高和radius属性
+ */
+/**
+ * 设置背景
+ */
+.search-bar-box.data-v-1266fbe1 {
+  --aimg-width: 36rpx;
+  margin: var(--search-bar-margin-top, 0) var(--search-bar-margin-right, 25rpx) var(--search-bar-margin-bottom, 0) var(--search-bar-margin-left, 25rpx);
+  background-color: var(--search-bar-bgcolor, #F8F8F8);
+  padding: var(--search-bar-padding, 0 15rpx);
+  height: var(--search-bar-height, 80rpx);
+  border-radius: var(--search-bar-radius, 5rpx);
+}
+.search-bar-box .clear.data-v-1266fbe1 {
+  margin-right: -25rpx;
+}

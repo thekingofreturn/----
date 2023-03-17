@@ -1,0 +1,1 @@
+<view class="empty-box flex center data-v-28f0e17c"><view class="data-v-28f0e17c" style="{{d}}"><image class="icon data-v-28f0e17c" src="{{a}}" bindload="{{b}}"></image><view class="m-t-25 data-v-28f0e17c">{{c}}</view><slot></slot></view></view>

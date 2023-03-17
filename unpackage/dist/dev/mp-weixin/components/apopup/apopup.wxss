@@ -1,0 +1,46 @@
+/**
+ * 如果没有单位则加上rpx
+ * @param {Number|String} $n
+ */
+/**
+ * 根据原尺寸，和新宽，得到新高
+ * @param {Number} $w 新宽
+ * @param {Number} $ow 原宽
+ * @param {Number} $oh 原高
+ */
+/**
+ * 一个方形（头像）样式
+ */
+/**
+ * 定义宽高和radius属性
+ */
+/**
+ * 设置背景
+ */
+.a-pop-up.data-v-c17ecf0a {
+  z-index: 100;
+}
+.a-pop-up .pop-up.data-v-c17ecf0a {
+  background-color: var(--pop-up-bgcolor, transparent);
+  border-radius: var(--pop-up-border-radius, 0);
+  text-align: left;
+  margin: var(--pop-up-margin, 0);
+}
+.a-pop-up .pop-up .close.data-v-c17ecf0a {
+  right: var(--pop-up-close-right, 0);
+  top: var(--pop-up-close-top, 0);
+  --aimg-width: var(--pop-up-close-width, 24rpx);
+}
+.a-pop-up.bottom .pop-up.data-v-c17ecf0a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: var(--pop-up-width, 100%);
+}
+.a-pop-up.right .pop-up.data-v-c17ecf0a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: var(--pop-up-width, 100%);
+}

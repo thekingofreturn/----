@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "alist": "../../components/alist/alist",
+    "aimg": "../../components/aimg/aimg",
+    "atab": "../../components/atab/atab"
+  }
+}

@@ -1,0 +1,71 @@
+/**
+ * 如果没有单位则加上rpx
+ * @param {Number|String} $n
+ */
+/**
+ * 根据原尺寸，和新宽，得到新高
+ * @param {Number} $w 新宽
+ * @param {Number} $ow 原宽
+ * @param {Number} $oh 原高
+ */
+/**
+ * 一个方形（头像）样式
+ */
+/**
+ * 定义宽高和radius属性
+ */
+/**
+ * 设置背景
+ */
+.m.data-v-d7fd7b38 {
+  float: left;
+  margin-top: 25rpx;
+  width: 342.5rpx;
+  box-shadow: 4rpx 4rpx 4rpx 0rpx rgba(0, 0, 0, 0.04);
+  border-radius: 8rpx;
+}
+.step-0 .region.data-v-d7fd7b38 {
+  padding: 50rpx 0;
+}
+.step-0 .region .large.data-v-d7fd7b38 {
+  color: #DDDDDD;
+  --large: 50rpx;
+  font-style: italic;
+}
+.step-0 .region .country.data-v-d7fd7b38 {
+  width: 200rpx;
+  text-align: left;
+}
+.step-1.data-v-d7fd7b38 {
+  --tab-box-bgcolor: var(--page-bgcolor);
+  --tab-box-color: transparent;
+  --tab-active-color: #161615;
+  --divider-color: rgba(200, 200, 200, 0.2);
+  --large: 45rpx;
+  --aimg-width: 45rpx;
+}
+.step-1 .t.data-v-d7fd7b38 {
+  padding: 25rpx 15rpx;
+  margin-top: 0;
+  margin-bottom: 25rpx;
+  width: 223.3rpx;
+}
+.step-1.data-v-d7fd7b38 .tab-box .a-content {
+  height: auto !important;
+}
+.step-1 .type-list.data-v-d7fd7b38 {
+  padding: 0 25rpx 25rpx 25rpx;
+}
+.step-1 .btns.data-v-d7fd7b38 {
+  --btn-radius: 10rpx;
+  font-weight: bold;
+}
+.step-1 .btns .plain.data-v-d7fd7b38 {
+  --btn-width: 250rpx;
+  --btn-border-color: #eee;
+  margin: 0 25rpx 0 0;
+  color: var(--font-color-primary);
+}
+.step-1 .btns .btn.data-v-d7fd7b38:not(.plain) {
+  color: #fff;
+}

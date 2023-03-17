@@ -1,0 +1,9 @@
+.loading-box.data-v-21f8f990 {
+  padding: var(--loading-box-padding, 15px 0);
+}
+.loading-box .loading-box-text.data-v-21f8f990 {
+  color: var(--loading-text-color, #aaa);
+}
+.loading-box .loading-box-ico.data-v-21f8f990 {
+  transform: scale(0.65);
+}

@@ -1,0 +1,30 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index"
+    },
+    {
+      "path": "pages/pay/index"
+    },
+    {
+      "path": "pages/my/index"
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "朝暮订阅",
+    "navigationBarBackgroundColor": "#EDEDED",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#93908B",
+    "selectedColor": "#D18961",
+    "backgroundColor": "#F5F2EB",
+    "borderStyle": "white",
+    "list": [
+      {"pagePath": "pages/index/index", "text": "订阅", "iconPath": "/static/images/png/1.png", "selectedIconPath": "/static/images/png/1_.png"},
+      {"pagePath": "pages/pay/index", "text": "支付", "iconPath": "/static/images/png/2.png", "selectedIconPath": "/static/images/png/2_.png"},
+      {"pagePath": "pages/my/index", "text": "我的", "iconPath": "/static/images/png/3.png", "selectedIconPath": "/static/images/png/3_.png"}
+    ]
+  }
+}

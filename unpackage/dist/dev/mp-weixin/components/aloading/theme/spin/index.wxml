@@ -1,0 +1,1 @@
+<view class="load-spin data-v-cab65c51"><view wx:for="{{a}}" wx:for-item="n" wx:key="a" class="span data-v-cab65c51"></view></view>

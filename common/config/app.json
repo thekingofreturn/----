@@ -1,0 +1,17 @@
+{
+  "appid": "",
+  "appSecret": "",
+  "scope": "snsapi_userinfo",
+  "stateCode": "ESmm",
+  
+  "debug": true,
+  
+  "host": "https://lv.lyxiu.com/",
+  "controller": "home",
+  
+  "imgRootDir": "/static/images/",
+  
+  "userStorageKey": "userinfo",
+  
+  "blank": ""
+}

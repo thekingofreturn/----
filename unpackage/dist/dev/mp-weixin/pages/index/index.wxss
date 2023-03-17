@@ -1,0 +1,80 @@
+/**
+ * 如果没有单位则加上rpx
+ * @param {Number|String} $n
+ */
+/**
+ * 根据原尺寸，和新宽，得到新高
+ * @param {Number} $w 新宽
+ * @param {Number} $ow 原宽
+ * @param {Number} $oh 原高
+ */
+/**
+ * 一个方形（头像）样式
+ */
+/**
+ * 定义宽高和radius属性
+ */
+/**
+ * 设置背景
+ */
+.has-page-bgcolor.data-v-1cf27b2a {
+  --page-bgcolor: #fafafa;
+  --page-body-padding: 0 25rpx;
+  --search-bar-bgcolor: #f4f4f4;
+  --search-bar-radius: 50px;
+  --search-bar-padding: 0 15rpx 0 30rpx;
+}
+.has-page-bgcolor.data-v-1cf27b2a .tab-box {
+  --tab-box-bgcolor: transparent;
+  --tab-box-color: transparent;
+  --tab-active-color: #161615;
+  --underline-height: 2px;
+}
+.has-page-bgcolor.data-v-1cf27b2a .tab-box .underline {
+  margin-top: -6px;
+  border-radius: 10px;
+}
+.has-page-bgcolor.data-v-1cf27b2a .tab-box .tab-tit {
+  color: var(--tab-color, var(--font-color-grey));
+}
+.has-page-bgcolor.data-v-1cf27b2a .tab-box .tab-tit.active {
+  --tab-color: var(--font-color-primary);
+}
+.has-page-bgcolor.data-v-1cf27b2a .tab-box .a-content {
+  --tabHeight: calc(46px + (var(--font-size) * 2) + 80rpx);
+}
+.has-page-bgcolor .goods-list.data-v-1cf27b2a {
+  --empty-box-height: 400rpx;
+  --border: 1px solid #EEEEEE;
+  border-top: var(--border);
+}
+.has-page-bgcolor .goods-list .g.data-v-1cf27b2a {
+  width: 375rpx;
+  float: left;
+  border-bottom: var(--border);
+  font-weight: 300;
+}
+.has-page-bgcolor .goods-list .g.data-v-1cf27b2a::after {
+  position: absolute;
+  top: 0;
+  right: -0.5px;
+  height: 100%;
+  border-right: var(--border);
+}
+.has-page-bgcolor .goods-list .g .pic.data-v-1cf27b2a {
+  --aimg-width: 200rpx;
+  --aimg-display: inline-block;
+}
+.has-page-bgcolor .goods-list.data-v-1cf27b2a::after {
+  height: 45rpx;
+}
+.has-page-bgcolor.data-v-1cf27b2a .a-list-box .list-box::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.has-page-bgcolor .triangle.data-v-1cf27b2a::after {
+  --triangle-color: var(--font-color-brown);
+  margin-left: 15rpx;
+  margin-bottom: -15rpx;
+}

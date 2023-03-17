@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="loading-box flex center data-v-21f8f990"><view wx:if="{{b}}" class="loading-box-ico data-v-21f8f990"><block wx:if="{{c}}"><spin class="spin data-v-21f8f990" u-i="21f8f990-0" bind:__l="__l"></spin></block></view><view class="loading-box-text small data-v-21f8f990">{{d}}</view></view>

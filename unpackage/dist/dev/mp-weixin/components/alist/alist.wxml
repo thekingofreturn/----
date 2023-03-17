@@ -1,0 +1,1 @@
+<view class="a-list-box"><aempty wx:if="{{a}}" u-i="56a39b76-0" bind:__l="__l" u-p="{{b}}"></aempty><view class="list-box m-b-25"><block wx:for="{{c}}" wx:for-item="n" wx:key="c"><slot name="{{n.a}}"></slot></block></view><aloading wx:if="{{d}}" u-i="56a39b76-1" bind:__l="__l" u-p="{{d}}"></aloading></view>

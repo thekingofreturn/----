@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "spin": "./theme/spin/index"
+  }
+}

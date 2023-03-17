@@ -1,0 +1,20 @@
+.aimg {
+  display: var(--aimg-display, block);
+  width: var(--aimg-width, 32rpx);
+  height: var(--aimg-height, var(--aimg-width, 32rpx));
+  border-radius: var(--aimg-border-radius, inherit);
+}
+.aimg.load {
+  background-color: var(--aimg-load-bgcolor, transparent);
+}
+.aimg.load:after {
+  position: absolute;
+  width: 300rpx;
+  text-align: center;
+  content: "";
+  /* 图片载入中... */
+  left: calc(50% - 150rpx);
+  top: calc(50% - 18rpx);
+  color: var(--aimg-load-bgcolor, #555);
+  font-size: 12px;
+}

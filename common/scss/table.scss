@@ -1,0 +1,22 @@
+@import "mixin.scss";
+.table{
+  display: table;
+  width: 100%;
+  --td-gap: 10px;
+  .tbody{
+    display: table-row-group;
+  }
+  .tr{
+    display: table-row;
+    .td, .th{
+      display: table-cell;
+      padding: var(--td-gap) 3px;
+      vertical-align: middle;
+    }
+
+    .tbody .td{
+      border-bottom: 1px solid #e4e4e4;
+    }
+  }
+  .e{display: block;}
+}

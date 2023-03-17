@@ -1,0 +1,60 @@
+/**
+ * 如果没有单位则加上rpx
+ * @param {Number|String} $n
+ */
+/**
+ * 根据原尺寸，和新宽，得到新高
+ * @param {Number} $w 新宽
+ * @param {Number} $ow 原宽
+ * @param {Number} $oh 原高
+ */
+/**
+ * 一个方形（头像）样式
+ */
+/**
+ * 定义宽高和radius属性
+ */
+/**
+ * 设置背景
+ */
+.tab-box.data-v-a53db3a0 {
+  --tabHeight: var(--tab-height, 46px);
+}
+.tab-box .tab-tit-box.data-v-a53db3a0 {
+  white-space: nowrap;
+  background-color: var(--tab-box-bgcolor, #fff);
+  border-bottom: 1px solid var(--tab-box-color, #ddd);
+  top: var(--pageOtherModHeight, 0);
+}
+.tab-box .tab-tit-box.data-v-a53db3a0 ::-webkit-scrollbar {
+  display: none;
+}
+.tab-box .underline.data-v-a53db3a0 {
+  width: var(--underline-width, var(--c88ac856));
+  background-color: var(--tab-active-color, #ff0000);
+  height: var(--underline-height, 2px);
+  top: calc(var(--tabHeight) - var(--underline-height, 2px));
+  left: var(--tab-active-left, var(--left, 0));
+  transition: all 0.3s;
+}
+.tab-box .tab-tit.data-v-a53db3a0 {
+  display: inline-block;
+  height: var(--tabHeight);
+  width: var(--tab-tit-width, auto);
+  line-height: var(--tabHeight);
+  padding: 0 25rpx;
+}
+.tab-box .tab-content.data-v-a53db3a0 {
+  top: 0;
+  width: 750rpx;
+  overflow: hidden;
+}
+.tab-box .tab-content .content-box.data-v-a53db3a0 {
+  top: 0;
+  transition: all 0.2s;
+}
+.tab-box .tab-content .content-box .a-content.data-v-a53db3a0 {
+  width: 750rpx;
+  height: calc(100vh - var(--tabHeight));
+  float: left;
+}

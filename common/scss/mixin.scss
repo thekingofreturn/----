@@ -1,0 +1,45 @@
+@use "sass:math";
+/**
+ * 如果没有单位则加上rpx
+ * @param {Number|String} $n
+ */
+@function autoRpx($n){
+  @return if(unitless($n),#{$n}rpx, $n);
+}
+/**
+ * 根据原尺寸，和新宽，得到新高
+ * @param {Number} $w 新宽
+ * @param {Number} $ow 原宽
+ * @param {Number} $oh 原高
+ */
+@function getHeight($w, $ow, $oh){
+  @return math.div($w * $oh, $ow);
+}
+
+/**
+ * 一个方形（头像）样式
+ */
+@mixin avatar($w, $r:0){
+  @include whr($w, $w, $r);
+}
+
+/**
+ * 定义宽高和radius属性
+ */
+@mixin whr($w, $h, $r: 0){
+  width: autoRpx($w);
+  height: autoRpx($h);
+  @if $r != 0 {
+    border-radius: $r;
+  }
+}
+
+/**
+ * 设置背景
+ */
+@mixin bg($bg, $color: 0){
+  background-color: $bg;
+  @if $color != 0{
+    color: $color
+  }
+}

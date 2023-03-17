@@ -1,0 +1,19 @@
+{
+  "login": "Login/handleLogin",
+  "upload": "Upload/addimage",
+  
+  "userId": "user/getUserInfo",
+  "baseConfig": "index/getConfig",
+  "bindShare": "user/bindingShareUser",
+
+  "goodsCate": "index/getBrand",
+  "goodsList": "index/goodsList",
+
+  "payRegion": "index/getAreaList",
+  "payType": "index/getSpecList",
+  "payCommit": "index/payConclude",
+  "orderList": "index/getOrderList",
+
+  "subscribeCommit": "index/concludeGood",
+  "subscribeCancel": "index/cancelConcludeGood"
+}

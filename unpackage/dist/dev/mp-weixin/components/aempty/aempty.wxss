@@ -1,0 +1,28 @@
+/**
+ * 如果没有单位则加上rpx
+ * @param {Number|String} $n
+ */
+/**
+ * 根据原尺寸，和新宽，得到新高
+ * @param {Number} $w 新宽
+ * @param {Number} $ow 原宽
+ * @param {Number} $oh 原高
+ */
+/**
+ * 一个方形（头像）样式
+ */
+/**
+ * 定义宽高和radius属性
+ */
+/**
+ * 设置背景
+ */
+.empty-box.data-v-28f0e17c {
+  height: var(--empty-box-height, 80vh);
+  background-color: var(--empty-box-bgcolor, transparent);
+  color: var(--empty-box-color, #999);
+}
+.empty-box .icon.data-v-28f0e17c {
+  width: var(--width);
+  height: var(--height);
+}

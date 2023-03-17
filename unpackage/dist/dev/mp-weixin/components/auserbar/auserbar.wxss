@@ -1,0 +1,44 @@
+/**
+ * 如果没有单位则加上rpx
+ * @param {Number|String} $n
+ */
+/**
+ * 根据原尺寸，和新宽，得到新高
+ * @param {Number} $w 新宽
+ * @param {Number} $ow 原宽
+ * @param {Number} $oh 原高
+ */
+/**
+ * 一个方形（头像）样式
+ */
+/**
+ * 定义宽高和radius属性
+ */
+/**
+ * 设置背景
+ */
+.user-bar.data-v-74e74b46 {
+  --pop-up-bgcolor: #fff;
+  padding: var(--user-bar-padding, 0 0 25rpx 0);
+}
+.user-bar .avatar.data-v-74e74b46 {
+  margin: 0 var(--avatar-margin-right, 25rpx) 0 0;
+  --aimg-width: var(--avatar-width, 110rpx);
+  --aimg-border-radius: 50%;
+  --btn-width: var(--aimg-width);
+}
+.user-bar .nickname.data-v-74e74b46 {
+  font-weight: var(--nickname-font-weight, 500);
+  font-size: var(--nickname-font-size, var(--font-size, 14px));
+  color: var(--nickname-color, var(--font-color-primary, #333));
+  padding: var(--nickname-padding, 0 0);
+  width: auto;
+}
+.user-bar .form .input.data-v-74e74b46 {
+  border-bottom: 1px solid #ddd;
+  padding: 20rpx 25rpx;
+  margin-bottom: 25rpx;
+}
+.user-bar .form .save-btn.data-v-74e74b46 {
+  padding: 25rpx;
+}
